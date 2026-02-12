@@ -13,7 +13,7 @@ params:
   description: "生成AI・AIツールの使い方・活用術を初心者向けにわかりやすく解説するブログ"
   author: AI活用ラボ編集部
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
@@ -23,9 +23,6 @@ params:
   homeInfoParams:
     Title: "AI活用ラボ"
     Content: "生成AI・AIツールの使い方から活用術まで、初心者にもわかりやすく解説します。ChatGPT、Claude、画像生成AI、業務効率化など、今すぐ使えるAI情報をお届け。"
-  socialIcons:
-    - name: github
-      url: "#"
 
 menu:
   main:
