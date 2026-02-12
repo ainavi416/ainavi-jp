@@ -448,38 +448,49 @@ body,
 .sidebar-search-form {
     display: flex;
     gap: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid var(--border);
 }
 
 .sidebar-search-form input {
     flex: 1;
-    padding: 8px 12px;
-    border: 1px solid var(--border);
-    border-right: none;
-    border-radius: 8px 0 0 8px;
+    min-width: 0;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 0;
     background: var(--theme);
     color: var(--primary);
     font-size: 0.9rem;
     font-family: inherit;
     outline: none;
-    transition: border-color 0.2s ease;
+    box-sizing: border-box;
 }
 
-.sidebar-search-form input:focus {
+.sidebar-search-form:focus-within {
     border-color: var(--accent);
 }
 
 .sidebar-search-form button {
-    padding: 8px 14px;
-    border: 1px solid var(--accent);
-    border-left: none;
-    border-radius: 0 8px 8px 0;
+    width: 42px;
+    padding: 0;
+    border: none;
+    border-radius: 0;
     background: var(--accent);
     color: #fff;
     cursor: pointer;
     transition: opacity 0.2s ease;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.sidebar-search-form button svg {
+    width: 16px;
+    height: 16px;
+    display: block;
 }
 
 .sidebar-search-form button:hover {
