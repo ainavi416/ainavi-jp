@@ -1,6 +1,6 @@
 ---
 title: "Google Geminiの使い方｜無料でできることを初心者向けに解説"
-date: 2026-02-13T03:00:00+09:00
+date: 2026-02-12T12:00:00+09:00
 draft: false
 description: "Google GeminiのAIチャットの始め方と無料でできることを解説。Googleアカウントがあればすぐに使えます。"
 categories:

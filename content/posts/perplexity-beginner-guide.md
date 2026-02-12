@@ -1,6 +1,6 @@
 ---
 title: "Perplexityの使い方｜出典付きで答えてくれるAI検索エンジン"
-date: 2026-02-13T05:00:00+09:00
+date: 2026-02-12T14:00:00+09:00
 draft: false
 description: "Perplexity AIの始め方と使い方を解説。Google検索の代わりに使える、出典付きAI検索ツールです。"
 categories:

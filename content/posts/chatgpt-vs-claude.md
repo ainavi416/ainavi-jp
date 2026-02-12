@@ -1,6 +1,6 @@
 ---
 title: "ChatGPTとClaudeの違い｜初心者はどっちを使うべき？"
-date: 2026-02-13T01:00:00+09:00
+date: 2026-02-12T10:00:00+09:00
 draft: false
 description: "ChatGPTとClaudeの違いを比較表で解説。日本語力・長文処理・画像生成など、用途ごとのおすすめを紹介します。"
 categories:

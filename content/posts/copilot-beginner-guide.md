@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Copilotの使い方｜Windows標準のAIを活用する方法"
-date: 2026-02-13T04:00:00+09:00
+date: 2026-02-12T13:00:00+09:00
 draft: false
 description: "Microsoft Copilotの始め方と無料でできることを解説。Windows PCがあれば、追加インストールなしですぐに使えます。"
 categories:
