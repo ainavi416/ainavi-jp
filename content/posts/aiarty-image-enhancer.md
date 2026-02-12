@@ -58,32 +58,101 @@ Aiarty Image Enhancerには5つのAIモデルが搭載されており、用途�
 低解像度の画像を、画質を保ったまま**最大32Kまで拡大**できます。従来のツールは単にピクセルを引き伸ばすだけでぼやけてしまいますが、Aiarty Image EnhancerはAIが画像の内容を理解し、**自然なディテールを生成しながらアップスケール**します。
 
 <figure>
-<img src="/ainavi-jp/images/aiarty/aiarty-upscale.png" alt="Aiarty Image Enhancerのアップスケール機能：他ツールとの比較" loading="lazy">
-<figcaption>出典：<a href="https://www.aiarty.com/ai-image-enhancer/" rel="nofollow">Aiarty Image Enhancer公式サイト</a> — 通常の拡大（中央）とAiartyのAIアップスケール（右）の比較</figcaption>
+<img src="/ainavi-jp/images/aiarty/upscale-before.jpg" alt="アップスケール前の低解像度画像" loading="lazy">
+<figcaption>出典：<a href="https://www.aiarty.com/ai-image-enhancer/" rel="nofollow">Aiarty Image Enhancer公式サイト</a> — アップスケール前</figcaption>
 </figure>
+
+<figure>
+<img src="/ainavi-jp/images/aiarty/upscale-after.jpg" alt="Aiarty Image EnhancerでAIアップスケールした高解像度画像" loading="lazy">
+<figcaption>出典：<a href="https://www.aiarty.com/ai-image-enhancer/" rel="nofollow">Aiarty Image Enhancer公式サイト</a> — AIアップスケール後（自然なディテールが復元）</figcaption>
+</figure>
+
+通常の拡大ではぼやけてしまう画像も、AIが欠落したディテールを推測・生成して、**シャープで自然な仕上がり**になります。
 
 ### ノイズ除去（デノイズ）
 
-暗い場所や夜間に撮影した写真のザラつき（ノイズ）をAIが自動で除去します。高ISO設定、長時間露光、暗所撮影、JPEG圧縮によるノイズなど、さまざまなタイプのノイズに対応しています。
+暗い場所や夜間に撮影した写真のザラつき（ノイズ）をAIが自動で除去します。
 
-<figure>
-<img src="/ainavi-jp/images/aiarty/aiarty-denoise.png" alt="Aiarty Image Enhancerのノイズ除去機能" loading="lazy">
-<figcaption>出典：<a href="https://www.aiarty.com/ai-image-enhancer/" rel="nofollow">Aiarty Image Enhancer公式サイト</a></figcaption>
+<div class="image-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin: 1rem 0;">
+<figure style="margin:0">
+<img src="/ainavi-jp/images/aiarty/denoise-before-01.jpg" alt="ノイズ除去前：暗所撮影の写真" loading="lazy">
+<figcaption style="font-size:0.8rem; text-align:center;">Before</figcaption>
 </figure>
+<figure style="margin:0">
+<img src="/ainavi-jp/images/aiarty/denoise-after-01.jpg" alt="ノイズ除去後：AIでクリアになった写真" loading="lazy">
+<figcaption style="font-size:0.8rem; text-align:center;">After</figcaption>
+</figure>
+</div>
+<figcaption style="text-align:center; font-size:0.85rem; color:#666;">出典：<a href="https://www.aiarty.com/ai-image-enhancer/" rel="nofollow">Aiarty Image Enhancer公式サイト</a></figcaption>
+
+高ISO設定、長時間露光、暗所撮影、JPEG圧縮によるノイズなど、さまざまなタイプのノイズに対応しています。
 
 ### ぼかし補正（デブラー）
 
-ピンボケやカメラブレで不鮮明になった写真を、AIが分析して**鮮明に復元**します。JPEG圧縮でブロックノイズが出た画像や、ピクセル化した画像もクリアにできます。
+ピンボケやカメラブレで不鮮明になった写真を、AIが分析して**鮮明に復元**します。
+
+<div class="image-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin: 1rem 0;">
+<figure style="margin:0">
+<img src="/ainavi-jp/images/aiarty/deblur-before-01.png" alt="ぼかし補正前：ピクセル化した画像" loading="lazy">
+<figcaption style="font-size:0.8rem; text-align:center;">Before</figcaption>
+</figure>
+<figure style="margin:0">
+<img src="/ainavi-jp/images/aiarty/deblur-after-01.png" alt="ぼかし補正後：AIで鮮明に復元した画像" loading="lazy">
+<figcaption style="font-size:0.8rem; text-align:center;">After</figcaption>
+</figure>
+</div>
+<figcaption style="text-align:center; font-size:0.85rem; color:#666;">出典：<a href="https://www.aiarty.com/ai-image-enhancer/" rel="nofollow">Aiarty Image Enhancer公式サイト</a></figcaption>
+
+JPEG圧縮でブロックノイズが出た画像や、ピクセル化した画像もクリアにできます。
 
 ### 顔復元（Face Restoration）
 
-人物写真の顔をAIが自動で補正します。小さく写った顔や圧縮で劣化した顔を、自然な形で復元します。肌のテクスチャ、目、髪の毛など、細かいディテールまで再現できます。
+人物写真の顔をAIが自動で補正します。小さく写った顔や圧縮で劣化した顔を、自然な形で復元します。
+
+<div class="image-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin: 1rem 0;">
+<figure style="margin:0">
+<img src="/ainavi-jp/images/aiarty/restore-before-01.jpg" alt="顔復元前：圧縮で劣化した人物写真" loading="lazy">
+<figcaption style="font-size:0.8rem; text-align:center;">Before</figcaption>
+</figure>
+<figure style="margin:0">
+<img src="/ainavi-jp/images/aiarty/restore-after-01.jpg" alt="顔復元後：AIで自然に復元された人物写真" loading="lazy">
+<figcaption style="font-size:0.8rem; text-align:center;">After</figcaption>
+</figure>
+</div>
+<figcaption style="text-align:center; font-size:0.85rem; color:#666;">出典：<a href="https://www.aiarty.com/ai-image-enhancer/" rel="nofollow">Aiarty Image Enhancer公式サイト</a></figcaption>
+
+肌のテクスチャ、目、髪の毛など、細かいディテールまで再現できます。
 
 ### AI消しゴム（AI Eraser）
 
 V3.9で新搭載された機能です。写真に写り込んだ不要な物体をブラシで塗るだけで、AIが周囲のテクスチャに合わせて自然に消去します。
 
+<div class="image-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin: 1rem 0;">
+<figure style="margin:0">
+<img src="/ainavi-jp/images/aiarty/eraser-left.png" alt="AI消しゴム機能：消去前" loading="lazy">
+<figcaption style="font-size:0.8rem; text-align:center;">消去前</figcaption>
+</figure>
+<figure style="margin:0">
+<img src="/ainavi-jp/images/aiarty/eraser-right.png" alt="AI消しゴム機能：消去後" loading="lazy">
+<figcaption style="font-size:0.8rem; text-align:center;">消去後</figcaption>
+</figure>
+</div>
+<figcaption style="text-align:center; font-size:0.85rem; color:#666;">出典：<a href="https://www.aiarty.com/ai-image-enhancer/" rel="nofollow">Aiarty Image Enhancer公式サイト</a></figcaption>
+
 ### 5つのAIモデル一覧
+
+<div class="image-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 1rem 0;">
+<figure style="margin:0">
+<img src="/ainavi-jp/images/aiarty/model-card-01.png" alt="More-Detail GAN v3モデル" loading="lazy">
+</figure>
+<figure style="margin:0">
+<img src="/ainavi-jp/images/aiarty/model-card-02.png" alt="AIGCsmooth v3モデル" loading="lazy">
+</figure>
+<figure style="margin:0">
+<img src="/ainavi-jp/images/aiarty/model-card-03.png" alt="Real Photo v3モデル" loading="lazy">
+</figure>
+</div>
+<figcaption style="text-align:center; font-size:0.85rem; color:#666;">出典：<a href="https://www.aiarty.com/ai-image-enhancer/" rel="nofollow">Aiarty Image Enhancer公式サイト</a></figcaption>
 
 | モデル | 特長 | おすすめの用途 |
 |--------|------|-------------|
@@ -121,6 +190,22 @@ Aiarty Image Enhancerには**無料トライアル**と2つの有料プランが
 
 Aiarty Image Enhancerの操作はとてもシンプルです。
 
+<div class="image-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 1rem 0;">
+<figure style="margin:0">
+<img src="/ainavi-jp/images/aiarty/step-1.jpg" alt="ステップ1：画像を読み込む" loading="lazy">
+<figcaption style="font-size:0.8rem; text-align:center;">Step 1. 画像を読み込む</figcaption>
+</figure>
+<figure style="margin:0">
+<img src="/ainavi-jp/images/aiarty/step-2.jpg" alt="ステップ2：AIモデルを選択" loading="lazy">
+<figcaption style="font-size:0.8rem; text-align:center;">Step 2. AIモデルを選択</figcaption>
+</figure>
+<figure style="margin:0">
+<img src="/ainavi-jp/images/aiarty/step-3.jpg" alt="ステップ3：エクスポート" loading="lazy">
+<figcaption style="font-size:0.8rem; text-align:center;">Step 3. エクスポート</figcaption>
+</figure>
+</div>
+<figcaption style="text-align:center; font-size:0.85rem; color:#666;">出典：<a href="https://www.aiarty.com/ai-image-enhancer/" rel="nofollow">Aiarty Image Enhancer公式サイト</a></figcaption>
+
 1. <a href="https://px.a8.net/svt/ejp?a8mat=4AXA8A+757A42+428G+HV7V6" rel="nofollow">公式サイト</a>から「Free Trial」をクリックしてダウンロード・インストールする
 2. 高画質化したい画像を**ドラッグ＆ドロップ**で読み込む（フォルダごとの一括読み込みも可能）
 3. AIモデルを選択し、拡大倍率を設定して「**RUN**」をクリックする
@@ -148,6 +233,22 @@ Web上にも無料の画像高画質化サービスはありますが、デス�
 仕事の写真や家族の写真など、**外部に送りたくないプライベートな画像**を扱う場合は、PC内で処理が完結するAiarty Image Enhancerが安心です。
 
 また、AI生成画像（Stable Diffusion、Midjourney等）の高画質化に特化した**AIGCsmoothモデル**が搭載されているのも、他にはない特長です。
+
+### カラー調整機能
+
+V3.9ではカラー調整パネルも搭載されています。ホワイトバランス、コントラスト、彩度、ハイライト、シャドウなどを細かく調整でき、SDRからHDRへの変換にも対応しています。
+
+<div class="image-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin: 1rem 0;">
+<figure style="margin:0">
+<img src="/ainavi-jp/images/aiarty/color-before.jpg" alt="カラー調整前" loading="lazy">
+<figcaption style="font-size:0.8rem; text-align:center;">Before</figcaption>
+</figure>
+<figure style="margin:0">
+<img src="/ainavi-jp/images/aiarty/color-after-hdr.jpg" alt="HDR変換後" loading="lazy">
+<figcaption style="font-size:0.8rem; text-align:center;">After（HDR変換）</figcaption>
+</figure>
+</div>
+<figcaption style="text-align:center; font-size:0.85rem; color:#666;">出典：<a href="https://www.aiarty.com/ai-image-enhancer/" rel="nofollow">Aiarty Image Enhancer公式サイト</a></figcaption>
 
 ## こんな人におすすめ／おすすめしない人
 
