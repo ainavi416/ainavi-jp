@@ -1,0 +1,17 @@
+{{- /* サイドバー検索: Enterでsearchページへ遷移 */ -}}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var searchInput = document.getElementById('sidebar-search-input');
+    if (searchInput) {
+        searchInput.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                var q = this.value.trim();
+                if (q) {
+                    window.location.href = '{{ "search/" | absURL }}' + '?q=' + encodeURIComponent(q);
+                }
+            }
+        });
+    }
+});
+</script>

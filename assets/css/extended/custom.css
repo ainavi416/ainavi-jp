@@ -8,7 +8,8 @@
 
 /* --- Root Variable Overrides --- */
 :root {
-    --main-width: 780px;
+    --main-width: 1100px;
+    --sidebar-width: 280px;
     --gap: 32px;
     --content-gap: 24px;
     --radius: 12px;
@@ -60,6 +61,18 @@ body {
 .nav {
     max-width: calc(var(--main-width) + var(--gap) * 2);
     line-height: var(--header-height);
+}
+
+/* --- 2 Column Grid Layout --- */
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr var(--sidebar-width);
+    gap: var(--gap);
+    align-items: start;
+}
+
+.main-content {
+    min-width: 0;
 }
 
 .logo a {
@@ -392,6 +405,199 @@ body,
 .paginav a,
 #menu a {
     transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+/* --- Sidebar --- */
+.sidebar {
+    position: sticky;
+    top: calc(var(--header-height) + var(--gap));
+}
+
+.sidebar-widget {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--entry);
+}
+
+.sidebar-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    margin: 0 0 14px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--accent);
+}
+
+/* Sidebar Search */
+.sidebar-search-form {
+    display: flex;
+    gap: 0;
+}
+
+.sidebar-search-form input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-right: none;
+    border-radius: 8px 0 0 8px;
+    background: var(--theme);
+    color: var(--primary);
+    font-size: 0.9rem;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.sidebar-search-form input:focus {
+    border-color: var(--accent);
+}
+
+.sidebar-search-form button {
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-left: none;
+    border-radius: 0 8px 8px 0;
+    background: var(--accent);
+    color: #fff;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-search-form button:hover {
+    opacity: 0.85;
+}
+
+/* Sidebar Recent Posts */
+.sidebar-recent-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-recent-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.sidebar-recent-list li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.sidebar-recent-list a {
+    display: block;
+    font-size: 0.88rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--primary);
+    text-decoration: none;
+    transition: color 0.15s ease;
+}
+
+.sidebar-recent-list a:hover {
+    color: var(--accent);
+}
+
+.sidebar-recent-list time {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--secondary);
+    margin-top: 4px;
+}
+
+/* Sidebar Categories */
+.sidebar-category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-category-list li {
+    margin-bottom: 4px;
+}
+
+.sidebar-category-list a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 0.88rem;
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+.sidebar-category-list a:hover {
+    background: var(--accent-light);
+    color: var(--accent);
+}
+
+.category-count {
+    font-size: 0.75rem;
+    font-weight: 700;
+    background: var(--accent);
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 12px;
+    min-width: 24px;
+    text-align: center;
+}
+
+/* --- Affiliate CTA Button --- */
+.affiliate-cta {
+    text-align: center;
+    margin: 2.5rem 0;
+}
+
+.affiliate-cta a {
+    display: inline-block;
+    padding: 0.9rem 2.5rem;
+    background: var(--accent);
+    color: #fff !important;
+    border-radius: 8px;
+    text-decoration: none !important;
+    font-weight: 700;
+    font-size: 1.05rem;
+    box-shadow: 0 2px 8px rgba(13, 148, 136, 0.3);
+    transition: opacity 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+.affiliate-cta a:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px rgba(13, 148, 136, 0.4);
+}
+
+[data-theme="dark"] .affiliate-cta a {
+    box-shadow: 0 2px 8px rgba(45, 212, 191, 0.2);
+}
+
+[data-theme="dark"] .affiliate-cta a:hover {
+    box-shadow: 0 4px 16px rgba(45, 212, 191, 0.3);
+}
+
+/* --- Sidebar responsive --- */
+@media (max-width: 1024px) {
+    :root {
+        --main-width: 780px;
+    }
+
+    .main-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        position: static;
+        border-top: 1px solid var(--border);
+        padding-top: var(--gap);
+    }
 }
 
 /* --- Reading width comfort for mobile --- */

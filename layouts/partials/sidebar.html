@@ -1,0 +1,42 @@
+<!-- 検索ウィジェット -->
+<div class="sidebar-widget sidebar-search">
+    <h3 class="sidebar-title">検索</h3>
+    <form class="sidebar-search-form" action="{{ "search/" | absURL }}" method="get">
+        <input type="search" id="sidebar-search-input" name="q" placeholder="記事を検索..." autocomplete="off">
+        <button type="submit" aria-label="検索">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+        </button>
+    </form>
+</div>
+
+<!-- 最新記事ウィジェット -->
+<div class="sidebar-widget sidebar-recent">
+    <h3 class="sidebar-title">最新記事</h3>
+    <ul class="sidebar-recent-list">
+        {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+        {{- range first 5 $pages }}
+        <li>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
+        </li>
+        {{- end }}
+    </ul>
+</div>
+
+<!-- カテゴリウィジェット -->
+<div class="sidebar-widget sidebar-categories">
+    <h3 class="sidebar-title">カテゴリ</h3>
+    <ul class="sidebar-category-list">
+        {{- range $name, $taxonomy := site.Taxonomies.categories }}
+        <li>
+            <a href="{{ printf "/categories/%s/" $name | absURL }}">
+                <span class="category-name">{{ $name }}</span>
+                <span class="category-count">{{ len $taxonomy }}</span>
+            </a>
+        </li>
+        {{- end }}
+    </ul>
+</div>
