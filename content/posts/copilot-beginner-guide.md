@@ -4,11 +4,7 @@ date: 2026-02-12T13:00:00+09:00
 draft: false
 description: "Microsoft Copilotの始め方と無料でできることを解説。Windows PCがあれば、追加インストールなしですぐに使えます。"
 categories:
-  - AIツール
-tags:
-  - Copilot
-  - Microsoft
-  - 初心者向け
+  - AIチャットボット
 ShowToc: true
 TocOpen: true
 ---

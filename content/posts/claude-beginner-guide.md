@@ -4,11 +4,7 @@ date: 2026-02-12
 draft: false
 description: "AIチャット「Claude」の始め方を3ステップで解説。無料プランでできること・できないことも整理しています。"
 categories:
-  - AIツール
-tags:
-  - Claude
-  - AI活用
-  - 初心者向け
+  - AIチャットボット
 ShowToc: true
 TocOpen: true
 ---

@@ -4,12 +4,7 @@ date: 2026-02-12T08:00:00+09:00
 draft: false
 description: "ConoHa AI Canvasの料金プラン・始め方・機能を画像付きで解説。月額1,100円からブラウザだけでStable Diffusionが使えるAI画像生成サービスです。"
 categories:
-  - AIツール
-tags:
-  - AI画像生成
-  - ConoHa
-  - Stable Diffusion
-  - 初心者向け
+  - AI画像
 cover:
   image: "images/conoha/conoha-hero.png"
   alt: "ConoHa AI Canvas公式サイト"

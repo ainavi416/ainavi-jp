@@ -4,11 +4,7 @@ date: 2026-02-12T14:00:00+09:00
 draft: false
 description: "Perplexity AIの始め方と使い方を解説。Google検索の代わりに使える、出典付きAI検索ツールです。"
 categories:
-  - AIツール
-tags:
-  - Perplexity
-  - AI検索
-  - 初心者向け
+  - AIチャットボット
 ShowToc: true
 TocOpen: true
 ---

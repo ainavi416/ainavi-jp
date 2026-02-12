@@ -4,11 +4,7 @@ date: 2026-02-12T12:00:00+09:00
 draft: false
 description: "Google GeminiのAIチャットの始め方と無料でできることを解説。Googleアカウントがあればすぐに使えます。"
 categories:
-  - AIツール
-tags:
-  - Gemini
-  - Google
-  - 初心者向け
+  - AIチャットボット
 ShowToc: true
 TocOpen: true
 ---

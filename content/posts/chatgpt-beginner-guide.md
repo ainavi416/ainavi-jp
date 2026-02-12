@@ -4,11 +4,7 @@ date: 2026-02-12T11:00:00+09:00
 draft: false
 description: "ChatGPTの始め方を3ステップで解説。無料プランでできることと、初心者におすすめの使い方を紹介します。"
 categories:
-  - AIツール
-tags:
-  - ChatGPT
-  - AI活用
-  - 初心者向け
+  - AIチャットボット
 ShowToc: true
 TocOpen: true
 ---
