@@ -43,11 +43,11 @@
 <div class="sidebar-widget sidebar-categories">
     <h3 class="sidebar-title">カテゴリ</h3>
     <ul class="sidebar-category-list">
-        {{- range $name, $taxonomy := site.Taxonomies.categories }}
+        {{- range site.Taxonomies.categories.Alphabetical }}
         <li>
-            <a href="{{ printf "/categories/%s/" $name | absURL }}">
-                <span class="category-name">{{ $name }}</span>
-                <span class="category-count">{{ len $taxonomy }}</span>
+            <a href="{{ .Page.Permalink }}">
+                <span class="category-name">{{ .Page.Title }}</span>
+                <span class="category-count">{{ .Count }}</span>
             </a>
         </li>
         {{- end }}
