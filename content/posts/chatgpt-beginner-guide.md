@@ -85,5 +85,4 @@ SNS用のアイコンやブログのアイキャッチ画像にも使えます�
 - ChatGPTは無料で使えるAIチャットサービス
 - 登録はメールアドレスだけで3分で完了
 - 文章作成・調べもの・画像生成まで幅広く対応
-- まずは<a href="https://px.a8.net/svt/ejp?a8mat=4AXA8A+6P4KS2+50+7RU5R6" rel="nofollow">ChatGPT公式サイト</a>にアクセスして、気軽に質問してみてください
-<img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=4AXA8A+6P4KS2+50+7RU5R6" alt="">
+- まずは chatgpt.com にアクセスして、気軽に質問してみてください

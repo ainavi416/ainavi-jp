@@ -81,5 +81,4 @@ Claudeの始め方は[こちらの記事](/ainavi-jp/posts/claude-beginner-guide
 - ChatGPTは画像生成とWeb検索に強い
 - Claudeは日本語の品質と長文処理に強い
 - どちらも無料で始められるので、両方使い分けるのがベスト
-- まずは<a href="https://px.a8.net/svt/ejp?a8mat=4AXA8A+6P4KS2+50+7RU5R6" rel="nofollow">ChatGPT</a>と[Claude](https://claude.ai)のアカウントを作って、同じ質問を投げ比べてみてください
-<img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=4AXA8A+6P4KS2+50+7RU5R6" alt="">
+- まずは両方のアカウントを作って、同じ質問を投げ比べてみてください

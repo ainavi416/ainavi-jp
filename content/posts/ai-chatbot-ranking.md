@@ -22,7 +22,7 @@ TocOpen: true
 
 | サービス | 開発元 | 無料プラン | 画像生成 | 最大の強み |
 |---------|--------|----------|---------|----------|
-| <a href="https://px.a8.net/svt/ejp?a8mat=4AXA8A+6P4KS2+50+7RU5R6" rel="nofollow">ChatGPT</a> | OpenAI | あり | あり | 機能の幅広さ |
+| [ChatGPT](/ainavi-jp/posts/chatgpt-beginner-guide/) | OpenAI | あり | あり | 機能の幅広さ |
 | [Claude](/ainavi-jp/posts/claude-beginner-guide/) | Anthropic | あり | なし | 日本語品質・長文処理 |
 | [Gemini](/ainavi-jp/posts/gemini-beginner-guide/) | Google | あり | あり | Googleサービス連携 |
 | [Copilot](/ainavi-jp/posts/copilot-beginner-guide/) | Microsoft | あり | あり | 登録不要・Windows標準 |
@@ -76,5 +76,3 @@ Gmail、Googleドキュメント、Googleマップとの連携が強みです。
 - 手軽さならCopilot、日本語ならClaude、画像ならChatGPT
 - 迷ったらChatGPTとClaudeの2つから始めるのがおすすめ
 - まずはどれか1つを開いて、「自分の仕事でどう使える？」と質問してみてください
-
-<img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=4AXA8A+6P4KS2+50+7RU5R6" alt="">
