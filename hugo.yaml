@@ -1,0 +1,60 @@
+baseURL: https://ainavi416.github.io/ainavi-jp/
+languageCode: ja
+title: AI活用ラボ
+theme: PaperMod
+
+defaultContentLanguage: ja
+
+pagination:
+  pagerSize: 10
+
+params:
+  env: production
+  description: "生成AI・AIツールの使い方・活用術を初心者向けにわかりやすく解説するブログ"
+  author: AI活用ラボ編集部
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  TocOpen: false
+  defaultTheme: auto
+  homeInfoParams:
+    Title: "AI活用ラボ"
+    Content: "生成AI・AIツールの使い方から活用術まで、初心者にもわかりやすく解説します。ChatGPT、Claude、画像生成AI、業務効率化など、今すぐ使えるAI情報をお届け。"
+  socialIcons:
+    - name: github
+      url: "#"
+
+menu:
+  main:
+    - identifier: home
+      name: ホーム
+      url: /
+      weight: 1
+    - identifier: categories
+      name: カテゴリ
+      url: /categories/
+      weight: 2
+    - identifier: tags
+      name: タグ
+      url: /tags/
+      weight: 3
+    - identifier: search
+      name: 検索
+      url: /search/
+      weight: 4
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
