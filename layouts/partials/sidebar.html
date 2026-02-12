@@ -19,8 +19,21 @@
         {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
         {{- range first 5 $pages }}
         <li>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
+            <a href="{{ .Permalink }}" class="sidebar-recent-item">
+                <div class="sidebar-recent-thumb">
+                    {{- $coverImage := "" }}
+                    {{- with .Params.cover }}{{ with .image }}{{ $coverImage = . }}{{ end }}{{ end }}
+                    {{- if $coverImage }}
+                    <img src="{{ $coverImage }}" alt="{{ .Title }}" loading="lazy">
+                    {{- else }}
+                    <img src="{{ "images/no-image.svg" | absURL }}" alt="No Image" loading="lazy">
+                    {{- end }}
+                </div>
+                <div class="sidebar-recent-info">
+                    <span class="sidebar-recent-title">{{ .Title }}</span>
+                    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
+                </div>
+            </a>
         </li>
         {{- end }}
     </ul>
