@@ -58,12 +58,17 @@ body {
 }
 
 /* --- Header --- */
+.header {
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
 .nav {
     max-width: calc(var(--main-width) + var(--gap) * 2);
     line-height: var(--header-height);
 }
 
-/* --- 2 Column Grid Layout --- */
+/* --- Logo with icon --- */
 .main-grid {
     display: grid;
     grid-template-columns: 1fr var(--sidebar-width);
@@ -76,6 +81,9 @@ body {
 }
 
 .logo a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 900;
     font-size: 1.35rem;
@@ -84,6 +92,11 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+.logo a svg {
+    stroke: var(--accent);
+    flex-shrink: 0;
 }
 
 #menu a {
