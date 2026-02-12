@@ -99,17 +99,22 @@ body {
 }
 
 #menu a {
-    font-size: 0.9rem;
+    font-size: 0.88rem;
     font-weight: 500;
-    padding: 6px 16px;
-    border-radius: 8px;
-    transition: background 0.2s ease, color 0.2s ease;
+    padding: 8px 4px;
+    margin: 0 12px;
+    color: var(--secondary);
+    border-radius: 0;
+    transition: color 0.2s ease;
 }
 
-#menu a:hover,
-#menu .active {
-    background: var(--accent-light);
+#menu a:hover {
+    color: var(--primary);
+}
+
+#menu a:has(.active) {
     color: var(--accent);
+    font-weight: 700;
 }
 
 /* --- Home Info Section --- */
