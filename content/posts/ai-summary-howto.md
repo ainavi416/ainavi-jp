@@ -11,6 +11,9 @@ tags:
   - ChatGPT
   - Claude
   - 業務効率化
+cover:
+  image: "/ainavi-jp/images/ai-summary-cover.jpg"
+  alt: "レポートを読むビジネスパーソン - AI要約のイメージ"
 ShowToc: true
 TocOpen: true
 ---
@@ -29,6 +32,8 @@ AIが要約できるのは以下のような文章です。
 - **議事録や会議の書き起こし**
 
 文字数制限はありますが、数千〜数万文字の長文でも数秒で要約してくれます。
+
+![AI技術のコンセプト](/ainavi-jp/images/ai-summary-concept.jpg)
 
 ## ChatGPTで要約する方法
 
@@ -68,6 +73,8 @@ ChatGPT Plus（有料プラン）に加入している場合、PDFファイル�
 
 ChatGPTの詳しい使い方は[ChatGPTの使い方｜登録から初めての質問まで3分で解説](https://ainavi416.github.io/ainavi-jp/posts/chatgpt-beginner-guide/)をご覧ください。
 
+![タブレットでPDFを読む様子](/ainavi-jp/images/ai-summary-pdf.jpg)
+
 ## Claudeで要約する方法
 
 Claudeは長文の要約が得意です。ChatGPTよりも多くの文字数を一度に処理できます。
@@ -101,6 +108,8 @@ Claudeは無料プランでもPDFのアップロードに対応しています�
 また、URLを貼り付けるだけでWebページの内容を要約してくれる場合もあります（サイトによっては取得できないこともあります）。
 
 Claudeの詳しい使い方は[Claudeの使い方｜初心者向けに始め方と無料でできることを解説](https://ainavi416.github.io/ainavi-jp/posts/claude-beginner-guide/)をご覧ください。
+
+![メモを取る様子](/ainavi-jp/images/ai-summary-notes.jpg)
 
 ## 要約の質を上げるコツ
 
