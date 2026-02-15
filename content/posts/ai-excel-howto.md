@@ -34,7 +34,7 @@ AIは以下のようなExcel作業を手伝ってくれます。
 
 関数名を覚えていなくても、「やりたいこと」を日本語で伝えるだけでOKです。
 
-![データ分析のイメージ](/ainavi-jp/images/ai-excel-data.jpg)
+![AIを使ったExcelデータ分析 - 円グラフと統計データの可視化](/ainavi-jp/images/ai-excel-data.jpg)
 
 ## ChatGPTでExcel作業を効率化する方法
 
@@ -120,7 +120,7 @@ IFERROR関数で「見つかりません」と表示させることもできま�
 
 ChatGPTの詳しい使い方は[ChatGPTの使い方｜登録から初めての質問まで3分で解説](https://ainavi416.github.io/ainavi-jp/posts/chatgpt-beginner-guide/)をご覧ください。
 
-![関数を入力している様子](/ainavi-jp/images/ai-excel-formula.jpg)
+![ChatGPTで生成したExcel関数をワークシートに入力している様子](/ainavi-jp/images/ai-excel-formula.jpg)
 
 ## Microsoft CopilotでExcelを操作する
 
@@ -178,7 +178,7 @@ SUMIFS関数を使います。
 
 Windows 11を使っているなら、わざわざブラウザを開かなくてもCopilotでExcelの質問ができます。
 
-![グラフを作成している様子](/ainavi-jp/images/ai-excel-chart.jpg)
+![AIの指示に従ってExcelで棒グラフと折れ線グラフを作成している様子](/ainavi-jp/images/ai-excel-chart.jpg)
 
 ## AIにExcel作業を頼むときのコツ
 
@@ -319,3 +319,5 @@ AIを使えば、Excel作業がグッと楽になります。
 - VBAコードもAIが生成してくれる
 
 まずは普段のExcel作業で困ったことがあったら、ChatGPTやCopilotに質問してみてください。
+
+{{< related-articles >}}

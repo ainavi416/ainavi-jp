@@ -33,7 +33,7 @@ AIが要約できるのは以下のような文章です。
 
 文字数制限はありますが、数千〜数万文字の長文でも数秒で要約してくれます。
 
-![AI技術のコンセプト](/ainavi-jp/images/ai-summary-concept.jpg)
+![ChatGPTとClaudeを使ってPDFや長文記事を要約している様子](/ainavi-jp/images/ai-summary-concept.jpg)
 
 ## ChatGPTで要約する方法
 
@@ -73,7 +73,7 @@ ChatGPT Plus（有料プラン）に加入している場合、PDFファイル�
 
 ChatGPTの詳しい使い方は[ChatGPTの使い方｜登録から初めての質問まで3分で解説](https://ainavi416.github.io/ainavi-jp/posts/chatgpt-beginner-guide/)をご覧ください。
 
-![タブレットでPDFを読む様子](/ainavi-jp/images/ai-summary-pdf.jpg)
+![AIにアップロードしたPDFファイルを要約させている様子](/ainavi-jp/images/ai-summary-pdf.jpg)
 
 ## Claudeで要約する方法
 
@@ -109,7 +109,7 @@ Claudeは無料プランでもPDFのアップロードに対応しています�
 
 Claudeの詳しい使い方は[Claudeの使い方｜初心者向けに始め方と無料でできることを解説](https://ainavi416.github.io/ainavi-jp/posts/claude-beginner-guide/)をご覧ください。
 
-![メモを取る様子](/ainavi-jp/images/ai-summary-notes.jpg)
+![AI要約ツールで生成した要約をノートにまとめている様子](/ainavi-jp/images/ai-summary-notes.jpg)
 
 ## 要約の質を上げるコツ
 
@@ -174,3 +174,5 @@ AIを使えば、長い文章も数秒で要約できます。
 - 長文にはClaudeが向いている
 
 まずは気になった記事をコピーして、ChatGPTやClaudeに貼り付けてみてください。
+
+{{< related-articles >}}

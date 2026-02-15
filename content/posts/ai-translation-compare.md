@@ -81,7 +81,7 @@ DeepLは翻訳に特化したAIサービスです。
 
 同じ英文を3つのツールで翻訳して、どれが自然か比較してみました。
 
-![ビジネスメールを書いている様子](/ainavi-jp/images/ai-translation-business.jpg)
+![AI翻訳ツールを使ってビジネスメールを英語から日本語に翻訳している様子](/ainavi-jp/images/ai-translation-business.jpg)
 
 ### テスト文1: ビジネスメール
 
@@ -104,7 +104,7 @@ DeepLは翻訳に特化したAIサービスです。
 
 ### テスト文2: カジュアルな文章
 
-![カフェで会話している様子](/ainavi-jp/images/ai-translation-casual.jpg)
+![ChatGPTやDeepLでカジュアルな英会話フレーズを翻訳している様子](/ainavi-jp/images/ai-translation-casual.jpg)
 
 **原文（英語）:**
 > I'm totally obsessed with this new coffee shop! The vibe is amazing and the barista is super friendly.
@@ -185,7 +185,7 @@ ChatGPTやClaudeは入力内容を学習する可能性があります。個人�
 
 それぞれのツールで翻訳する方法を簡単に紹介します。
 
-![翻訳アプリを使っている様子](/ainavi-jp/images/ai-translation-tools.jpg)
+![ChatGPT、Claude、DeepLの翻訳機能を比較しながら使用している様子](/ainavi-jp/images/ai-translation-tools.jpg)
 
 ### ChatGPTで翻訳する方法
 
@@ -253,3 +253,5 @@ AI翻訳ツールは用途に合わせて使い分けるのがポイントです
 - 個人情報は入力しない
 
 まずは無料でDeepLを試して、物足りなければChatGPTやClaudeを使ってみてください。
+
+{{< related-articles >}}

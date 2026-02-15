@@ -1,0 +1,27 @@
+{{- $currentPage := .Page -}}
+{{- $related := $currentPage.Site.RegularPages.Related $currentPage | first 3 -}}
+{{- if $related -}}
+<div class="related-articles">
+  <h2>関連記事</h2>
+  <div class="related-grid">
+    {{- range $related -}}
+    <article class="related-card">
+      {{- if .Params.cover.image -}}
+      <a href="{{ .Permalink }}" class="related-image">
+        <img src="{{ .Params.cover.image }}" alt="{{ .Title }}" loading="lazy">
+      </a>
+      {{- end -}}
+      <div class="related-content">
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <p>{{ .Description }}</p>
+        <div class="related-meta">
+          {{- if .Params.categories -}}
+          <span class="category">{{ index .Params.categories 0 }}</span>
+          {{- end -}}
+        </div>
+      </div>
+    </article>
+    {{- end -}}
+  </div>
+</div>
+{{- end -}}
