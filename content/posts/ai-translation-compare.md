@@ -11,6 +11,9 @@ tags:
   - ChatGPT
   - Claude
   - DeepL
+cover:
+  image: "/images/ai-translation-compare.jpg"
+  alt: "多言語の空港標識 - AI翻訳のイメージ"
 ShowToc: true
 TocOpen: true
 ---
