@@ -5,6 +5,9 @@ draft: false
 description: "Perplexity AIの始め方と使い方を解説。Google検索の代わりに使える、出典付きAI検索ツールです。"
 categories:
   - AIチャットボット
+cover:
+  image: "/ainavi-jp/images/perplexity-cover.jpg"
+  alt: "オンラインリサーチをする様子 - Perplexityのイメージ"
 ShowToc: true
 TocOpen: true
 ---

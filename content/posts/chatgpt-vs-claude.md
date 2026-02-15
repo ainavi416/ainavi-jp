@@ -5,6 +5,9 @@ draft: false
 description: "ChatGPTとClaudeの違いを比較表で解説。日本語力・長文処理・画像生成など、用途ごとのおすすめを紹介します。"
 categories:
   - AIチャットボット
+cover:
+  image: "/ainavi-jp/images/chatgpt-claude-compare.jpg"
+  alt: "比較と選択のイメージ - ChatGPT vs Claude"
 ShowToc: true
 TocOpen: true
 ---

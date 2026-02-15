@@ -5,6 +5,9 @@ draft: false
 description: "ChatGPTの始め方を3ステップで解説。無料プランでできることと、初心者におすすめの使い方を紹介します。"
 categories:
   - AIチャットボット
+cover:
+  image: "/ainavi-jp/images/chatgpt-cover.jpg"
+  alt: "スマートフォンでAIチャットを使う様子 - ChatGPTのイメージ"
 ShowToc: true
 TocOpen: true
 ---

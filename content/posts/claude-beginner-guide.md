@@ -5,6 +5,9 @@ draft: false
 description: "AIチャット「Claude」の始め方を3ステップで解説。無料プランでできること・できないことも整理しています。"
 categories:
   - AIチャットボット
+cover:
+  image: "/ainavi-jp/images/claude-cover.jpg"
+  alt: "AIチャットボットを使用する様子 - Claudeのイメージ"
 ShowToc: true
 TocOpen: true
 ---

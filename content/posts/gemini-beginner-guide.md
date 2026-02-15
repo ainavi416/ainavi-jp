@@ -5,6 +5,9 @@ draft: false
 description: "Google GeminiのAIチャットの始め方と無料でできることを解説。Googleアカウントがあればすぐに使えます。"
 categories:
   - AIチャットボット
+cover:
+  image: "/ainavi-jp/images/gemini-cover.jpg"
+  alt: "モダンなワークスペースでテクノロジーを使う様子 - Geminiのイメージ"
 ShowToc: true
 TocOpen: true
 ---

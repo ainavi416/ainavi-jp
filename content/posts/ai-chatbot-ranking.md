@@ -5,6 +5,9 @@ draft: false
 description: "主要AIチャットボット5つを比較。目的別のおすすめと選び方を初心者にもわかりやすく解説します。"
 categories:
   - AIチャットボット
+cover:
+  image: "/ainavi-jp/images/ai-chatbot-ranking.jpg"
+  alt: "スマートフォンアプリのイメージ - AIチャットボット比較"
 ShowToc: true
 TocOpen: true
 ---

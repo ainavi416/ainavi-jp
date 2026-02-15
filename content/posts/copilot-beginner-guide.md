@@ -5,6 +5,9 @@ draft: false
 description: "Microsoft Copilotの始め方と無料でできることを解説。Windows PCがあれば、追加インストールなしですぐに使えます。"
 categories:
   - AIチャットボット
+cover:
+  image: "/ainavi-jp/images/copilot-cover.jpg"
+  alt: "ビジネス用ラップトップで生産性向上 - Copilotのイメージ"
 ShowToc: true
 TocOpen: true
 ---

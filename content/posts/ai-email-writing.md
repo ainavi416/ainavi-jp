@@ -10,6 +10,9 @@ tags:
   - Claude
   - ビジネスメール
   - 業務効率化
+cover:
+  image: "/ainavi-jp/images/ai-email-cover.jpg"
+  alt: "ビジネスメールを書く様子 - AIメール作成のイメージ"
 ShowToc: true
 TocOpen: true
 ---
