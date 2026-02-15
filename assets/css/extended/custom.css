@@ -659,6 +659,108 @@ body,
     }
 }
 
+/* --- Images in Post Content --- */
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--radius);
+    margin: 28px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.post-content figure {
+    margin: 32px 0;
+}
+
+.post-content figcaption {
+    margin-top: 8px;
+    font-size: 0.85rem;
+    color: var(--secondary);
+    text-align: center;
+}
+
+/* --- Info Box (重要な情報の囲み) --- */
+.info-box {
+    margin: 28px 0;
+    padding: 20px 24px;
+    border-radius: var(--radius);
+    background: linear-gradient(135deg, #e0f2fe 0%, #dbeafe 100%);
+    border-left: 4px solid #0ea5e9;
+}
+
+[data-theme="dark"] .info-box {
+    background: linear-gradient(135deg, #0c4a6e 0%, #075985 100%);
+    border-left-color: #38bdf8;
+}
+
+.info-box p:last-child {
+    margin-bottom: 0;
+}
+
+/* --- Warning Box (注意事項の囲み) --- */
+.warning-box {
+    margin: 28px 0;
+    padding: 20px 24px;
+    border-radius: var(--radius);
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-left: 4px solid #f59e0b;
+}
+
+[data-theme="dark"] .warning-box {
+    background: linear-gradient(135deg, #78350f 0%, #92400e 100%);
+    border-left-color: #fbbf24;
+}
+
+.warning-box p:last-child {
+    margin-bottom: 0;
+}
+
+/* --- Success Box (成功・おすすめの囲み) --- */
+.success-box {
+    margin: 28px 0;
+    padding: 20px 24px;
+    border-radius: var(--radius);
+    background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+    border-left: 4px solid #10b981;
+}
+
+[data-theme="dark"] .success-box {
+    background: linear-gradient(135deg, #064e3b 0%, #065f46 100%);
+    border-left-color: #34d399;
+}
+
+.success-box p:last-child {
+    margin-bottom: 0;
+}
+
+/* --- Step Box (手順の番号付き囲み) --- */
+.step-box {
+    margin: 20px 0;
+    padding: 18px 22px 18px 60px;
+    border-radius: var(--radius);
+    background: var(--code-bg);
+    position: relative;
+    border: 1px solid var(--border);
+}
+
+.step-box::before {
+    content: attr(data-step);
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 32px;
+    height: 32px;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.95rem;
+}
+
 /* --- Reading width comfort for mobile --- */
 @media (max-width: 768px) {
     .post-title {
@@ -680,5 +782,16 @@ body,
 
     .first-entry .entry-header h1 {
         font-size: 1.5rem;
+    }
+
+    .step-box {
+        padding-left: 52px;
+    }
+
+    .step-box::before {
+        width: 28px;
+        height: 28px;
+        font-size: 0.85rem;
+        left: 14px;
     }
 }
