@@ -1,6 +1,6 @@
 ---
 title: "AIで翻訳するならどれが正確？ChatGPT・Claude・DeepL比較"
-date: 2026-02-16T00:00:00Z
+date: 2026-02-15T15:00:00Z
 draft: false
 description: "ChatGPT、Claude、DeepLの翻訳精度を比較。ビジネス文書、カジュアルな文章、専門用語など用途別におすすめのAI翻訳ツールを紹介します。"
 categories:
